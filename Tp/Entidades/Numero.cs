@@ -123,8 +123,11 @@ namespace Entidades
             return numeroEnBinario;
         }
 
-
-
+        /// <summary>
+        /// Validacion que devuelve 0 si el dato es invalido y el dato ingresado en formato double en caso de ser valido
+        /// </summary>
+        /// <param name="strNumero"></param>
+        /// <returns></returns>
         private static double ValidarNumero(string strNumero)
         {
             bool isValidNum;
